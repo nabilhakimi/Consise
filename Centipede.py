@@ -1,5 +1,6 @@
 from turtle import *
 
+
 def centipede(length, step, life):
     penup()
     theta = 0
@@ -16,8 +17,11 @@ def centipede(length, step, life):
     if ycor() > 350:
         left(30)
 
+
 def main():
     setworldcoordinates(-400, -400, 400, 400)
     centipede(14, 10, 200)
     exitonclick()
+
+
 main()
